@@ -25,11 +25,11 @@ public class JobService {
         return  this._jobRepository.findById(id);
     }
 
-    public Job updateJob(Job job , int id){
+    /*public Job updateJob(Job job , int id){
         Optional<Job> Job = this._jobRepository.findById(id);
         if((this._jobRepository.findById(id).isPresent()) && job.getEtat()){
 
         }
 
-    }
+    }*/
 }
